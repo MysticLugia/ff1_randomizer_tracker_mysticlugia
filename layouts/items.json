@@ -1,0 +1,26 @@
+{
+	"shared_item_grid": {
+		"type": "array",
+		"orientation": "horizontal",
+		"content": [
+			{
+				"type": "itemgrid",
+				"h_alignment": "center",
+				"item_margin": "1,2",
+				"rows": [
+					["earthorb", "fireorb", "waterorb", "windorb"],
+					["lute","ship","crown","crystal","herb"],
+					["key","tnt","ruby","rod","canoe"],
+					["floater","bottle","oxyale","chime","cube"]
+				]
+			}
+		]
+	},
+	"tracker_capture_item": {
+		"type": "container",
+		"content": {
+			"type": "layout",
+			"key": "shared_item_grid"
+		}
+	}
+}

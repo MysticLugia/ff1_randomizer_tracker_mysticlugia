@@ -1,0 +1,132 @@
+[
+	//Coneria
+	{
+		"name": "Coneria",
+		"children": [
+		
+			//Town
+			{
+				"name": "Coneria Town",
+				"short_name": "Town",
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1265,
+						"y": 1265
+					}
+				],
+				"sections": [
+					{
+						"name": "General Store Incentive",
+						"capture_item": true,
+						"access_rules": "notbought",
+						"item_count": 1
+					}
+				]
+			},
+			
+			//Castle
+			{
+				"name": "Coneria Castle",
+				"short_name": "Castle",
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1265,
+						"y": 1200
+					}
+				],
+				"sections": [
+					{
+						"name": "King",
+						"capture_item": true,
+						"access_rules": ["garland"],
+						"item_count": 1
+					},
+					{
+						"name": "Sarah",
+						"capture_item": true,
+						"access_rules": ["garland"],
+						"item_count": 1
+					},
+					{
+						"name": "Treasury",
+						"capture_item": true,
+						"access_rules": ["key"],
+						"item_count": 6
+					}
+				]
+			}
+			
+		]
+	},
+	
+	//Provoka
+	{
+		"name": "Provoka Town",
+		"short_name": "Provoka",
+		"map_locations": [
+			{
+				"map": "overworld",
+				"x": 1700,
+				"y": 1200
+			}
+		],
+		"access_rules": ["bridge","ship","airship"],
+		"sections": [
+			{
+				"name": "Defeating Bicky and the Pirates",
+				"capture_item": true,
+				"item_count": "1"
+			},
+			{
+				"name": "General Store Incentive",
+				"capture_item": true,
+				"access_rules": "notbought",
+				"item_count": 1
+			}
+		]
+	},
+	
+	//Elfland
+	{
+		"name": "Elfland",
+		"access_rules": ["ship","airship"],
+		"sections": [
+			
+			//Elfland Village
+			{
+				"name": "Elfland Village",
+				"short_name": "ElfVillage",
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1024,
+						"y": 1850
+					}
+				],
+				"sections": [
+					{
+						"name": "General Store Incentive",
+						"capture_item": true,
+						"access_rules": "notbought",
+						"item_count": 1
+					}
+				]
+			},
+			
+			//Elfland Castle
+			{
+				"name": "Elfland Castle",
+				"short_name": "ElfCastle",
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1024,
+						"y": 1800
+					}
+				]
+			}
+		]
+	}
+]

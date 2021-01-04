@@ -1,0 +1,94 @@
+[
+
+	//Temple of Fiends
+	{
+		"name": "Temple of Fiends",
+		"children": [
+			
+		//Present Day				
+			{
+				"name": "Temple of Fiends",
+				"short_name": "ToF",
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1000,
+						"y": 1024
+					}
+				],
+				"sections": [
+					{
+						"name": "Left Side Chests",
+						"capture_item": true,
+						"item_count": 3
+					},
+					{
+						"name": "Right Side Chests",
+						"capture_item": true,
+						"access_rules": ["key"],
+						"item_count": 3
+					}
+				]
+			},
+			
+			//2000 years past
+			{
+				"name": "Temple of Fiends Revisited",
+				"short_name": "ToFR",
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1040,
+						"y": 1024
+					}
+				],
+				"access_rules": ["lute,key,lich1,mari1,kraken1,tia1"],
+				"sections": [
+					{
+						"name": "ToFR",
+						"capture_item": true,
+						"item_count": 7
+					}
+				]
+			}
+		]
+	},
+	
+	//Marsh Cave
+	{
+		"name": "Marsh Cave",
+		"short_name": "Marsh",
+		"map_locations": [
+			{
+				"map": "overworld",
+				"x": 850,
+				"y": 1700,
+			}
+		],
+		"access_rules":["ship"],
+		"sections": [
+			{
+				"name": "Free Chests",
+				"capture_item": true,
+				"item_count": 9
+			},
+			{
+				"name": "Free Incentive Chest",
+				"capture_item": true,
+				"item_count": 1
+			},
+			{
+				"name": "Locked Chests",
+				"capture_item": true,
+				"access_rules": ["key"],
+				"item_count": 2
+			},
+			{
+				"name": "Locked Incentive Chest",
+				"capture_item": true,
+				"access_rules": ["key"],
+				"item_count": 1
+			}
+		]
+	}
+]

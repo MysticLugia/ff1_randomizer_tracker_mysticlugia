@@ -1,0 +1,38 @@
+[
+	//Inner Sea
+	{
+		"name": "Inner Sea",
+		"color": "#059134",
+		"children": [
+		
+			//Matoya's Cave
+			{
+				"name": "Matoyas Cave",
+				"short_name": "Matoyas Cave",
+				"map_locations": [
+					{
+						"map": "overworld",
+						"x": 1300,
+						"y": 900
+					}
+				],				
+				"access_rules": ["bridge","ship","airship"],
+				"sections": [
+					{
+						"name": "Chests",
+						"capture_item": true,
+						"item_count": 3
+					},
+					{
+						"name": "Matoya",
+						"capture_item": true,
+						"access_rules": ["crystal"],
+						"item_count": 3
+					}
+				]
+			}
+			
+
+		]
+	}
+]

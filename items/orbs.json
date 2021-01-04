@@ -1,0 +1,70 @@
+[
+	//Earth Orb
+	{
+		"name": "EarthOrb",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/items/EarthOrb.png",
+				"img_mods": "@disabled",
+				"codes": ""
+			},
+			{
+				"img": "images/items/EarthOrb.png",
+				"codes": "earthorb,earth,lich1,lich"
+			}
+		]
+	},
+	//Fire Orb
+	{
+		"name": "FireOrb",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/items/FireOrb.png",
+				"img_mods": "@disabled",
+				"codes": ""
+			},
+			{
+				"img": "images/items/FireOrb.png",
+				"codes": "fireorb,fire,kali1,kali"
+			}
+		]
+	},
+	//Water Orb
+	{
+		"name": "WaterOrb",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/items/WaterOrb.png",
+				"img_mods": "@disabled",
+				"codes": ""
+			},
+			{
+				"img": "images/items/WaterOrb.png",
+				"codes": "waterorb,water,kraken1,kraken"
+			}
+		]
+	},
+	//Wind Orb
+	{
+		"name": "WindOrb",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/items/WindOrb.png",
+				"img_mods": "@disabled",
+				"codes": ""
+			},
+			{
+				"img": "images/items/WindOrb.png",
+				"codes": "windorb,wind,tiamat1,tiamat"
+			}
+		]
+	}
+]

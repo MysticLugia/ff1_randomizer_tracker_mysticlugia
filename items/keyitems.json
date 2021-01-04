@@ -1,0 +1,36 @@
+[
+	//Lute
+	{
+		"name": "Lute",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/items/lute.png",
+				"img_mods": "@disabled",
+				"codes": ""
+			},
+			{
+				"img": "images/items/lute.png",
+				"codes": "lute"
+			}
+		]
+	},
+	
+	//Bridge
+	{
+		"name": "Bridge",
+		"type": "progressive",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"img": "images/items/nobridge.png",
+				"codes": ""
+			},
+			{
+				"img": "images/items/bridge.png",
+				"codes": "bridge"
+			}
+		]
+	}
+]
