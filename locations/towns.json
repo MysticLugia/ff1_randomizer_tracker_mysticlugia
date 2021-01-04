@@ -11,7 +11,7 @@
 				"map_locations": [
 					{
 						"map": "overworld",
-						"x": 1265,
+						"x": 1220,
 						"y": 1265
 					}
 				],
@@ -32,7 +32,7 @@
 				"map_locations": [
 					{
 						"map": "overworld",
-						"x": 1265,
+						"x": 1220,
 						"y": 1200
 					}
 				],
@@ -125,6 +125,31 @@
 						"x": 1024,
 						"y": 1800
 					}
+				],
+				"sections": [
+					{
+						"name": "Waking Prince",
+						"capture_item": true,
+						"access_rules": "herb,elfdoctor",
+						"item_count": 1
+					},
+					{
+						"name": "Treasury",
+						"capture_item": true,
+						"access_rules": "key",
+						"item_count": 4
+					}
+				]
+			},
+			
+			//Melmond
+			{
+				"name": "Melmond",
+				"short_name": "Melmond",
+				"map_locations": [
+					"map": "overworld",
+					"x": 600,
+					"y": 1265
 				]
 			}
 		]
