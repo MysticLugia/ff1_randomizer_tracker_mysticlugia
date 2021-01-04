@@ -1,0 +1,16 @@
+{
+	"name": "Final Fantasy Randomizer Tracker by MysticLugia",
+	"game_name": "Final Fantasy Randomizer",
+	"platform": "nes",
+	"package_version": "0.0.1",
+	"package_uid": "ffr_tracker_mysticlugia",
+	"author": "MysticLugia",
+	"variants": {
+		"standard": {
+			"display_name": "Standard Map Tracker"
+		},
+		"items_only": {
+			"display_name": "Item Tracker"
+		}
+	}
+}
